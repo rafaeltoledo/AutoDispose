@@ -27,6 +27,7 @@ import androidx.lifecycle.LifecycleRegistry;
  * A test {@link LifecycleOwner} implementation for testing. You can either back it with your own
  * instance or just stub it in place and use its public emit() API.
  */
+@Deprecated("Switch to androidx.lifecycle.testing.TestLifecycleOwner")
 @RestrictTo(TESTS)
 public final class TestLifecycleOwner implements LifecycleOwner {
 
